@@ -2,6 +2,7 @@
   <div>
     <div>首页</div>
     <featureThree></featureThree>
+    <feature-four></feature-four>
   </div>
 </template>
 
@@ -9,7 +10,8 @@
 import featureThree from '../components/feature-three'
 export default {
   componemts:{
-    featureThree
+    featureThree,
+    featureFour
   }
 }
 </script>
