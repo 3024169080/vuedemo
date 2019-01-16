@@ -1,11 +1,17 @@
 <template>
-  <div>首页</div>
+  <div>
+    <div>首页</div>
+    <feature-four></feature-four>
+  </div>
 </template>
 
 <script>
-export default {
-
-}
+import featureFour from '../components/feature-four'
+  export default {
+    components:{
+      featureFour
+    }
+  }
 </script>
 
 <style>
